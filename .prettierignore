@@ -1,0 +1,15 @@
+.next
+node_modules
+build
+dist
+out
+coverage
+.vercel
+.netlify
+*.log
+.DS_Store
+Thumbs.db
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.turbo

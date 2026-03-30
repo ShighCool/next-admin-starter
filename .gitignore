@@ -1,0 +1,64 @@
+# 依赖
+node_modules
+.pnp
+.pnp.js
+
+# 测试覆盖率
+coverage
+*.lcov
+
+# Next.js
+.next/
+out/
+build
+dist
+
+# 生产环境构建
+.vercel
+.netlify
+
+# 调试日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 本地环境变量文件（不要提交）
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 日志
+logs/
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 其他
+.cache/
+.turbo/
+
+AGENTS.md
