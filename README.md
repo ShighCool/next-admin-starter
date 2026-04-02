@@ -55,7 +55,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/next-admin-starter.git
+git clone https://github.com/ShighCool/next-admin-starter.git
 cd next-admin-starter
 
 # 安装依赖
@@ -423,13 +423,10 @@ import utils from '@/utils/utils'
 
 ## 📮 联系方式
 
-- 项目主页: [https://github.com/yourusername/next-admin-starter](https://github.com/yourusername/next-admin-starter)
-- 问题反馈: [Issues](https://github.com/yourusername/next-admin-starter/issues)
-- 邮箱: your.email@example.com
+- 项目主页: [https://github.com/ShighCool/next-admin-starter](https://github.com/ShighCool/next-admin-starter)
+- 问题反馈: [Issues](https://github.com/ShighCool/next-admin-starter/issues)
+- 邮箱: 568935016@qq.com
 
 ---
 
 如果这个项目对你有帮助，请给一个 ⭐️ Star 支持一下！
-=======
-# next-admin-starter
-admin-manager
