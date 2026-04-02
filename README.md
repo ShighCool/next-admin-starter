@@ -354,10 +354,10 @@ return (
 
 项目已配置 @/ 别名，指向 src/ 目录：
 
-`	sx
+```	sx
 import Component from '@/components/Component'
 import utils from '@/utils/utils'
-`
+```
 
 ## 🤝 贡献
 
