@@ -38,7 +38,7 @@
 
 ### 用户管理
 
-![用户管理](screenshots/users.png)
+![用户管理](screenshots/user.png)
 
 ### 数据分析
 
@@ -231,7 +231,7 @@ next-admin-starter/
 
 增强的表格组件，支持搜索、分页、批量操作等功能。
 
-` sx
+``` sx
 import ProTable from '@/components/core/ProTable'
 
 <ProTable
@@ -244,13 +244,13 @@ headerActions={<Button>新增</Button>}
 onRefresh={handleRefresh}
 pagination={{ current, pageSize, total }}
 />
-`
+```
 
 ### SearchForm
 
 搜索表单组件，支持多种表单字段类型。
 
-` sx
+``` sx
 import SearchForm from '@/components/core/SearchForm'
 
 <SearchForm
@@ -265,13 +265,13 @@ loading={loading}
 
 </Form.Item>
 </SearchForm>
-`
+```
 
 ### ModalForm
 
 模态框表单组件，支持表单验证和提交。
 
-` sx
+``` sx
 import ModalForm from '@/components/core/ModalForm'
 
 <ModalForm
@@ -287,13 +287,13 @@ width={600}
 
 </Form.Item>
 </ModalForm>
-`
+```
 
 ### DrawerForm
 
 抽屉表单组件，类似于 ModalForm，但使用抽屉形式。
 
-` sx
+``` sx
 import DrawerForm from '@/components/core/DrawerForm'
 
 <DrawerForm
@@ -309,13 +309,12 @@ width={600}
 
 </Form.Item>
 </DrawerForm>
-`
-
+```
 ## 🔐 权限守卫
 
 使用 AuthGuard 组件保护需要登录的页面：
 
-` sx
+``` sx
 import AuthGuard from '@/components/auth/AuthGuard'
 
 export default function ProtectedPage() {
@@ -325,7 +324,7 @@ return (
 </AuthGuard>
 )
 }
-`
+```
 
 ## 🎨 主题切换
 
@@ -348,7 +347,7 @@ return (
 ### 样式规范
 
 - 优先使用内联样式
-- 使用 CSS 变量 ar(--theme-primary) 引用主题色
+- 使用 CSS 变量 var(--theme-primary) 引用主题色
 - 遵循 Ant Design 的设计规范
 
 ### 路径别名
