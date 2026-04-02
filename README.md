@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<div align="center">
 
 # Next Admin Starter
@@ -430,3 +431,7 @@ import utils from '@/utils/utils'
 ---
 
 如果这个项目对你有帮助，请给一个 ⭐️ Star 支持一下！
+=======
+# next-admin-starter
+admin-manager
+>>>>>>> 5a5df70cdabde8209d5d553f42bb15f65a4015c7
