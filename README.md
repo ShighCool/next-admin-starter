@@ -34,7 +34,7 @@
 
 ### 主界面
 
-![主界面](screenshots/home.png)
+![主界面](screenshots/dashboard.png)
 
 ### 用户管理
 
@@ -108,8 +108,8 @@ npm start
 
 ## 🔐 默认账号
 
-- 用户名: dmin
-- 密码: dmin123
+- 用户名: admin
+- 密码: dmin123
 
 ## 📁 项目结构
 
